@@ -1,0 +1,41 @@
+.body {
+    color: rgba(117, 117, 117, 1);
+    background-color: #FFFFFF;
+}
+.list{
+    list-style: none;
+}
+
+/* текст колір для h background: rgba(33, 33, 33, 1); */
+/* текст для p  background: rgba(117, 117, 117, 1)*/
+
+/* текст в hero color: rgba(255, 255, 255, 1);  background: rgba(47, 48, 58, 1); */
+
+/* кнопка в hero color: rgba(255, 255, 255, 1) background: rgba(33, 150, 243, 1); */
+/* акцент box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+ */
+
+/* шапка */
+ .logo {
+    color: #2196F3;
+ }
+ /* cтілізація site-nav переробити*/
+
+ .site-nav-link{
+    color:rgba(33, 33, 33, 1);
+}
+
+ .contact-nav-link{
+    color: rgba(117, 117, 117, 1);
+ }
+ /* main */
+ /* hero */
+
+.section-title {
+    color: #212121;
+}
+
+/* features, staff */
+.title{
+    color: #212121;   
+}
