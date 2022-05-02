@@ -16,6 +16,8 @@
 body{
     color:var(--primary-text-color);
     background-color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 .list{
     list-style: none;
@@ -24,12 +26,20 @@ body{
 /* шапка */
  .logo {
     color: #2196F3;
- }
- /* cтілізація site-nav переробити*/
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1,19;
+}
 
+ /* cтілізація site-nav переробити*/
 .site-nav-link{
     color:var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
 }
+
 .site-nav-link:hover,
 .site-nav-link:focus{
     color: rgba(33, 150, 243, 1);
@@ -41,7 +51,20 @@ body{
 
 .contact-nav-link{
     color:var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
  }
+
+ .contact-nav-link:hover,
+ .contact-nav-link:focus{
+     color: rgba(33, 150, 243, 1);
+ }
+
+ .contact-nav-link.current{
+    color: rgba(33, 150, 243, 1);
+}
  /* main */
  /* hero */
  
@@ -49,26 +72,64 @@ body{
  background-color:rgba(47, 48, 58, 1);
 }
 .hero-title{
- color:var(--acent-color);
+    color:var(--acent-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero-button{
-color:var(--acent-color);
-background-color: rgba(33, 150, 243, 1);
+    color:var(--acent-color);
+    background-color: rgba(33, 150, 243, 1);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,88;
+    letter-spacing: 0.06em;
 }
+
+/* Заголовок для ассистивных технологий та filter,  в портфолио - наши работы, фильтры, проекты
+.visually-hidden{
+visibility: hidden;  
+}
+*/
 
 .section-title {
     color:var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    text-transform: uppercase;
 }
 
 /* features */
 .feature-list .feature-title{
-    color:var(--title-text-color);
+    color:var(--title-text-color); 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    text-transform: uppercase;
 }
+.feature-list .feature-text{
+    color:var(--primary-text-color); 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+}
+
 /* staff*/
 .staff-list .staff-title{
-    color:var(--title-text-color);   
+    color:var(--title-text-color); 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,19;  
 }
 
-
+.staff-list .staff-prof{
+    color:var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,19;
+} 
 /* footer */
