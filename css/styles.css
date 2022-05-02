@@ -25,13 +25,15 @@ body{
 
 /* шапка */
  .logo {
-    color: #2196F3;
+    color:var(--title-text-color);
     font-family: Raleway;
     font-size: 26px;
     line-height: 1,19;
 }
-
- /* cтілізація site-nav переробити*/
+.accent{
+    color: #2196F3;
+}
+ /* cтілізація site-nav */
 .site-nav-link{
     color:var(--title-text-color);
     font-weight: 500;
@@ -98,9 +100,10 @@ visibility: hidden;
 .section-title {
     color:var(--title-text-color);
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1,14;
-    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 1,17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* features */
@@ -123,7 +126,8 @@ visibility: hidden;
     color:var(--title-text-color); 
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,19;  
+    line-height: 1,19; 
+    text-align: center; 
 }
 
 .staff-list .staff-prof{
@@ -131,5 +135,53 @@ visibility: hidden;
     font-weight: 400;
     font-size: 16px;
     line-height: 1,19;
+    text-align: center;
 } 
+
+/* portfolio */
+/* filter */
+
+.button{
+    color:var(--title-text-color);
+    font-family: inherit; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,63;
+}
+.button.current{
+    color:var(--acent-color);
+    background: #2196F3;
+}
+/* projects */
+.project-list .title{
+    color:var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;  
+}
+
+.project-list .text{
+    color:var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,88;
+}
 /* footer */
+
+.full-address{
+background: #2F303A;
+}
+
+.logo-footer {
+    color:var(--acent-color);
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1,19;
+}
+.full-address {
+    color:var(--acent-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    }
